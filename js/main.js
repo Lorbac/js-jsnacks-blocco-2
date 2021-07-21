@@ -63,3 +63,13 @@
 // Crea due array che hanno un numero di elementi diversi. Aggiungi elementi all’array che ha meno elementi fino a quando ne avrà tanti quanti l’altro.
 
 
+var primoContenitore = [1,2,3,4,5,6,7];
+var secondoContenitore = [10,20,30,40];
+
+while (primoContenitore.length != secondoContenitore.length) {
+    secondoContenitore.push(prompt("Inserisci un qualcosa"));
+}
+
+
+console.log(primoContenitore);
+console.log(secondoContenitore);
